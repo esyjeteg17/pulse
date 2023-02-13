@@ -9,7 +9,7 @@
     "gulp-sass": "^5.1.0",
     "sass": "^1.58.0"
   },
-  "name": "uber",
+  "name": "pulse",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -218,5 +218,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esyjeteg17/pulse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esyjeteg17/pulse/issues"
+  },
+  "homepage": "https://github.com/esyjeteg17/pulse#readme",
   "description": ""
 }
