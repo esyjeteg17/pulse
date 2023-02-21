@@ -39,4 +39,17 @@
         flex-direction: column;
         align-items: flex-end;
     }
-} 
+
+    @media(max-width: 991px){
+        header{
+            &__official{
+                font-size: 16px;
+                span{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+
