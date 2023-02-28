@@ -1,0 +1,50 @@
+.reviews{
+    padding-bottom: 71px;
+}
+.reviews-item{
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        &:nth-child(1){
+            margin-top: 70px;
+        }
+    }
+    &__photo{
+        width: 169px;
+        height: 169px;
+        margin-right: 62px;
+    }
+    &__name{
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0d0d0d;
+    }
+    &__marathon{
+        font-size: 14px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #646464;
+        margin-top: 10px;
+    }
+    &__text{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0d0d0d;
+        margin-top: 19px;
+    }
+}
